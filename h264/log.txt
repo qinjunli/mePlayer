@@ -1,0 +1,93 @@
+Administrator@MICROSOF-C7154A /cygdrive/h/android-ndk-r4/samples/h264_android
+$ $NDK/ndk-build NDK_PROJECT_PATH=$NDK/samples/h264_android
+Compile thumb  : H264Android <= /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/dsputil.c
+Compile thumb  : H264Android <= /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/error_resilience.c
+In file included from /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/error_resilience.c:33:
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h: In function 'get_dct8x8_allowed':
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h:1351: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h:1353: warning: integer constant is too large for 'unsigned long' type
+Compile thumb  : H264Android <= /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/golomb.c
+Compile thumb  : H264Android <= /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.c
+In file included from /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.c:33:
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h: In function 'get_dct8x8_allowed':
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h:1351: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h:1353: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.c: In function 'hl_decode_mb_internal':
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.c:1272: warning: passing argument 2 of 'h->h264dsp.h264_chroma_dc_dequant_idct' from incompatible pointer type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.c:1272: note: expected 'DCTELEM *' but argument is of type 'DCTELEM (*)[4]'
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.c:1274: warning: passing argument 2 of 'h->h264dsp.h264_chroma_dc_dequant_idct' from incompatible pointer type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.c:1274: note: expected 'DCTELEM *' but argument is of type 'DCTELEM (*)[4]'
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.c:1279: warning: passing argument 2 of 'h->h264dsp.h264_chroma_dc_dequant_idct' from incompatible pointer type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.c:1279: note: expected 'DCTELEM *' but argument is of type 'DCTELEM (*)[4]'
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.c:1280: warning: passing argument 2 of 'h->h264dsp.h264_chroma_dc_dequant_idct' from incompatible pointer type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.c:1280: note: expected 'DCTELEM *' but argument is of type 'DCTELEM (*)[4]'
+Compile thumb  : H264Android <= /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_cabac.c
+In file included from /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_cabac.c:33:
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h: In function 'get_dct8x8_allowed':
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h:1351: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h:1353: warning: integer constant is too large for 'unsigned long' type
+Compile thumb  : H264Android <= /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_cavlc.c
+In file included from /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_cavlc.c:33:
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h: In function 'get_dct8x8_allowed':
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h:1351: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h:1353: warning: integer constant is too large for 'unsigned long' type
+Compile thumb  : H264Android <= /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_direct.c
+In file included from /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_direct.c:32:
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h: In function 'get_dct8x8_allowed':
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h:1351: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h:1353: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_direct.c: In function 'pred_spatial_direct_motion':
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_direct.c:264: warning: assignment from incompatible pointer type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_direct.c:265: warning: assignment from incompatible pointer type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_direct.c: In function 'pred_temp_direct_motion':
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_direct.c:444: warning: assignment from incompatible pointer type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_direct.c:445: warning: assignment from incompatible pointer type
+Compile thumb  : H264Android <= /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_loopfilter.c
+In file included from /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_loopfilter.c:33:
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h: In function 'get_dct8x8_allowed':
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h:1351: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h:1353: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_loopfilter.c: In function 'ff_h264_filter_mb_fast':
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_loopfilter.c:381: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_loopfilter.c:382: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_loopfilter.c:383: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_loopfilter.c:384: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_loopfilter.c:394: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_loopfilter.c:396: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_loopfilter.c:396: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_loopfilter.c: In function 'filter_mb_dir':
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_loopfilter.c:490: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_loopfilter.c:524: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_loopfilter.c:528: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_loopfilter.c:534: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_loopfilter.c:606: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_loopfilter.c: In function 'ff_h264_filter_mb':
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_loopfilter.c:695: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_loopfilter.c:696: warning: integer constant is too large for 'unsigned long' type
+Compile thumb  : H264Android <= /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_ps.c
+In file included from /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_ps.c:32:
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h: In function 'get_dct8x8_allowed':
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h:1351: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h:1353: warning: integer constant is too large for 'unsigned long' type
+Compile thumb  : H264Android <= /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_refs.c
+In file included from /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264_refs.c:31:
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h: In function 'get_dct8x8_allowed':
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h:1351: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264.h:1353: warning: integer constant is too large for 'unsigned long' type
+Compile thumb  : H264Android <= /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264dsp.c
+Compile thumb  : H264Android <= /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264idct.c
+Compile thumb  : H264Android <= /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/h264pred.c
+Compile thumb  : H264Android <= /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/imgutils.c
+Compile thumb  : H264Android <= /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/log.c
+Compile thumb  : H264Android <= /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/mem.c
+Compile thumb  : H264Android <= /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/mpegvideo.c
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/mpegvideo.c: In function 'ff_print_debug_info':
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/mpegvideo.c:1445: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/mpegvideo.c:1487: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/mpegvideo.c:1488: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/mpegvideo.c:1496: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/mpegvideo.c:1497: warning: integer constant is too large for 'unsigned long' type
+/cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/mpegvideo.c:1515: warning: integer constant is too large for 'unsigned long' type
+Compile thumb  : H264Android <= /cygdrive/h/android-ndk-r4/samples/h264_android/jni/h264_android/utils.c
+SharedLibrary  : libH264Android.so
+Install        : libH264Android.so => /cygdrive/h/android-ndk-r4/samples/h264_android/libs/armeabi

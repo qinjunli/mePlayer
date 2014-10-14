@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearlayout_row"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent">
+             
+    <ImageView
+		android:id="@+id/imageview_rowicon"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@android:color/transparent"/>
+		       
+	<TextView
+		android:id="@+id/textview_rowtext"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:textColor="@color/white"/>			
+</LinearLayout>

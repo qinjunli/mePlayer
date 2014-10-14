@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SDL App</string>
+    <string name="label_no_data">No data</string>
+    <string name="textView_label">TextView</string>
+    <string name="localFile">播放本地文件</string>
+    <string name="streamFile">播放流文件</string>
+    <string name="siteInput">http://192.168.1.100:8090/test1.mpg</string>
+</resources>
